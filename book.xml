@@ -1,0 +1,8 @@
+<Library>
+    <Book>
+        <Book_ID>101</Book_ID>
+        <Book_Title>Effective Java</Book_Title>
+        <Book_Author>Joshua Bloch</Book_Author>
+        <Book_Description>A comprehensive guide to best practices in Java programming.</Book_Description>
+    </Book>
+</Library>
