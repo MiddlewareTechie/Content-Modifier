@@ -1,4 +1,4 @@
-# Content-Modifier
+# Content Modifier
 
 The Content Modifier in SAP Cloud Integration serves as a versatile tool for managing message content during integration processes. It allows users to manipulate various aspects of message handling, including headers, properties, and the message body. Here’s a breakdown of the source types mentioned in your query:
 
