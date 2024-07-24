@@ -1,3 +1,31 @@
 Expression:
 ..............................................................................
+
+Format: yyyyMMdd'T'hh:mm:ss
+Example Output: 20211201T03:34:48
+Explanation: This format displays the current date and time in the following structure: Year (yyyy), Month (MM), Day (dd), 'T' (literal character), Hour (hh, in 12-hour format), Minute (mm), Second (ss).
 ${date:now:yyyyMMdd}
+
+Format: yyyyMMdd
+Example Output: 20211201
+Explanation: This format shows the current date as a concatenation of Year (yyyy), Month (MM), and Day (dd).
+${date:now:yyyyMMdd HH:mm:ss}
+
+Format: yyyyMMdd HH:mm:ss
+Example Output: 20211201 15:34:48
+Explanation: This format provides the current date and time, including Year (yyyy), Month (MM), Day (dd), Hour (HH, in 24-hour format), Minute (mm), and Second (ss).
+${date:now:yyyyMMdd HH:mm:ss.Sz}
+
+Format: yyyyMMdd HH:mm:ss.Sz
+Example Output: 20211201 15:34:48.54UTC
+Explanation: This format shows the current date and time with milliseconds and the timezone abbreviation. It includes Year (yyyy), Month (MM), Day (dd), Hour (HH, in 24-hour format), Minute (mm), Second (ss), Millisecond (S), and Timezone (z).
+${date:now:yyyyMMdd'T'HH:mm:ss.SSS Z}
+
+Format: yyyyMMdd'T'HH:mm:ss.SSS Z
+Example Output: 20211201T15:34:48.054 +0000
+Explanation: This format presents the current date and time with milliseconds and timezone offset. It includes Year (yyyy), Month (MM), Day (dd), 'T' (literal character), Hour (HH, in 24-hour format), Minute (mm), Second (ss), Millisecond (SSS), and Timezone Offset (Z).
+${date:now:yyyyMMdd HH:mm:ss.SSS aaa}
+
+Format: yyyyMMdd HH:mm:ss.SSS aaa
+Example Output: (Note: Example output isn't provided in your question)
+Explanation: This format gives the current date and time with milliseconds and AM/PM designation. It includes Year (yyyy), Month (MM), Day (dd), Hour (HH, in 12-hour format), Minute (mm), Second (ss), Millisecond (SSS), and AM/PM marker (aaa).
